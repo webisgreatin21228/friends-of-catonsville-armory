@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 theme = "hugo-scroll"
 
 # The browser tab name
-title = "Jane Doe - Nutrition Coach & Chef Consultant"
+title = "Friends of Catonsville Armory"
 
 # In order to add version information in the page's footer set to true.
 # enableGitInfo = true
@@ -80,21 +80,27 @@ enableEmoji = true
 
     [[params.contacts]]
         label = "phone"
-        value = "+49 1111 555555"
-        url = "tel:+49 1111 555555"
+        value = "555-555-5555"
+        url = "tel:555-555-5555"
         icon = "fa fa-phone"
 
     [[params.contacts]]
         label = "email"
-        value = "mail@janedoe.com"
-        url = "mailto:mail@janedoe.com"
+        value = "friend@friendsofcatonsvillearmory.org"
+        url = "mailto:friend@friendsofcatonsvillearmory.org"
         icon = "fa fa-envelope"
 
     [[params.contacts]]
-        label = "GitHub"
-        value = "github.com/zjedi/hugo-scroll"
-        url = "https://github.com/zjedi/hugo-scroll"
-        icon = "fa-brands fa-github"
+        label = "newsletter"
+        value = "Subscribe to Our Mailing List"
+        url = "www.example.com"
+        icon = "fa fa-newspaper"
+
+    # [[params.contacts]]
+    #     label = "GitHub"
+    #     value = "github.com/zjedi/hugo-scroll"
+    #     url = "https://github.com/zjedi/hugo-scroll"
+    #     icon = "fa-brands fa-github"
 
     # Add additional contacts here!
     # [[params.contacts]]
